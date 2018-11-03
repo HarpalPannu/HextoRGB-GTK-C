@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.1 -->
+<interface>
+  <requires lib="gtk+" version="3.0"/>
+  <object class="GtkWindow" id="Main">
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">HexToRGB</property>
+    <property name="resizable">False</property>
+    <property name="modal">True</property>
+    <property name="default_width">280</property>
+    <property name="default_height">614</property>
+    <child>
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkEntry" id="hexCodeText">
+            <property name="height_request">27</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="max_length">9</property>
+            <property name="invisible_char">●</property>
+            <property name="width_chars">10</property>
+            <property name="text" translatable="yes">#4286f4</property>
+            <property name="primary_icon_activatable">False</property>
+            <property name="secondary_icon_activatable">False</property>
+          </object>
+          <packing>
+            <property name="x">85</property>
+            <property name="y">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="hexCode">
+            <property name="width_request">80</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Hex Code : </property>
+          </object>
+          <packing>
+            <property name="x">5</property>
+            <property name="y">10</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btnConvert">
+            <property name="label" translatable="yes">Convert</property>
+            <property name="width_request">62</property>
+            <property name="height_request">61</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="margin_right">10</property>
+          </object>
+          <packing>
+            <property name="x">250</property>
+            <property name="y">9</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label1">
+            <property name="width_request">20</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">R</property>
+          </object>
+          <packing>
+            <property name="x">5</property>
+            <property name="y">46</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="rColor">
+            <property name="width_request">30</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="editable">False</property>
+            <property name="max_length">3</property>
+            <property name="invisible_char">●</property>
+            <property name="width_chars">5</property>
+            <property name="primary_icon_activatable">False</property>
+            <property name="secondary_icon_activatable">False</property>
+          </object>
+          <packing>
+            <property name="x">25</property>
+            <property name="y">41</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label2">
+            <property name="width_request">20</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">G</property>
+            <property name="xalign">0.12999999523162842</property>
+          </object>
+          <packing>
+            <property name="x">86</property>
+            <property name="y">46</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="gColor">
+            <property name="width_request">30</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="editable">False</property>
+            <property name="max_length">3</property>
+            <property name="invisible_char">●</property>
+            <property name="width_chars">5</property>
+            <property name="primary_icon_activatable">False</property>
+            <property name="secondary_icon_activatable">False</property>
+          </object>
+          <packing>
+            <property name="x">105</property>
+            <property name="y">41</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label3">
+            <property name="width_request">20</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">B</property>
+            <property name="xalign">0.12999999523162842</property>
+          </object>
+          <packing>
+            <property name="x">167</property>
+            <property name="y">46</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="bColor">
+            <property name="width_request">30</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="editable">False</property>
+            <property name="max_length">3</property>
+            <property name="invisible_char">●</property>
+            <property name="width_chars">5</property>
+            <property name="primary_icon_activatable">False</property>
+            <property name="secondary_icon_activatable">False</property>
+          </object>
+          <packing>
+            <property name="x">190</property>
+            <property name="y">41</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
